@@ -48,10 +48,10 @@ function submitInfo(event) {
             return overmonCost
 }
    
-
+}
 
 function delElement(event) {
     event.target.parentElement.parentElement.remove()
 
-}
+
 }
