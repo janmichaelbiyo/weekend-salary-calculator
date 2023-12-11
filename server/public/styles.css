@@ -1,0 +1,23 @@
+#employStuff {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+#employStuff th {
+    border: 1px solid #8a2222;
+    padding: 10px;
+}
+
+#employStuff th {
+    text-align: center;
+    background-color: rgb(9, 0, 128);
+    color: white;
+}
+
+#employeeData td {
+    text-align: center;
+}
+
+.over-budget {
+    background-color: #8a2222;
+}
