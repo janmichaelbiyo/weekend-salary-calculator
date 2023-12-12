@@ -1,14 +1,21 @@
-// Require express - gives us a function
 const express = require('express');
+console.log('!!!NODE with EXPRESS!!!');
 
-// Create an instance of express by calling the function returned above - gives us an object
+// initializing app
 const app = express();
-const port = process.env.PORT || 5001;
+// console.log(app);
 
-// express static file serving - public is the folder name
 app.use(express.static('server/public'));
 
-// Start up our server
-app.listen(port, () => {
-  console.log('listening on port', port);
+// run the app
+// function param as a callback
+app.listen(5002, () => {
+  console.log('Application running on PORT 5001');
 });
+// ctrl+C = exit
+
+
+// from the package.json file
+// "scripts": {
+  //   "test": "jest --verbose"
+  // },
