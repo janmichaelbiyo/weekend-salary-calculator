@@ -16,8 +16,26 @@
 
 #employeeData td {
     text-align: center;
+    border: thick double;
+    border-color: navy;
+    background-color: goldenrod;
 }
 
 .over-budget {
     background-color: #8a2222;
+}
+
+.footClan {
+    margin-top: 50px;
+    text-align:  right;
+}
+
+.shredder {
+    font-size:xx-large;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bBop {
+    font-size: 300%;
 }

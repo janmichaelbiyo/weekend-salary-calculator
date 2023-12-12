@@ -14,19 +14,20 @@
 
     <h2>Add Employee</h2>
 
-    <lable>
+    <!-- <lable> -->
       <!-- <span> First Name </span> -->
     <form class = "employeeForm" onsubmit="submitInfo(event)" >
-    <input type="text" data-testid="firstNameInput" id="firstName" placeholder="First Name" />
-    <input type="text" data-testid="lastNameInput" id="lastNameInput" placeholder="Last Name " />
-    <input type="text" data-testid="idInput" id="idInput" placeholder="ID" />
-    <input type="text" data-testid="titleInput" id="titleInput" placeholder="Title" />
-    <input type="text" data-testid="annualSalaryInput" id="annualSalaryInput" placeholder="Annual Input" />
-    <input type="submit" data-testid="submitButton" value="Submit" />
-      
+    <input type="text" data-testid="firstNameInput" id="firstName" placeholder="First Name" /></br>
+    <input type="text" data-testid="lastNameInput" id="lastNameInput" placeholder="Last Name " /></br>
+    <input type="text" data-testid="idInput" id="idInput" placeholder="ID" /></br>
+    <input type="text" data-testid="titleInput" id="titleInput" placeholder="Title" /></br>
+    <input type="text" data-testid="annualSalaryInput" id="annualSalaryInput" placeholder="Annual Input" /></br>
+    <button onclick="submitInfo(event)" data-testid="submitButton"> Submit </button></br>
    </form>
+   
 
-    </lable>
+
+    <!-- </lable> -->
   
 
 
@@ -53,12 +54,12 @@
 
 
   </main>
-  <footer>
-    <p>Total Monthly</p>
-    <h3><span id="totalMonthly">0</span></h3>
+  <footer class="footClan">
+    <p class="shredder" > Total Monthly</p>
+    <h3 class="bBop"><span id="totalMonthly">0</span></h3>
 
   </footer>
-  <script src="scripts.js"></script>
+  <script src="scripts/scripts.js"></script>
 </body>
 </html>
 
